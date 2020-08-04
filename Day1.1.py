@@ -1,3 +1,5 @@
+#Manipulating files and folders
+#creating new files and updating the existing ones
 '''#create a file 
 
 #open a file
