@@ -1,5 +1,4 @@
-
-
+#Playing with the pdfs 
 from PyPDF2 import PdfFileWriter,PdfFileReader
 '''#merge pdfs together
 #open your first pdf
