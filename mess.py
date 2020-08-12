@@ -1,3 +1,24 @@
+
+''''-----Message Bomber-----
+Here is the code that  accept a contact number to send multiple messages of Otp by amazon just for fun!!!!
+Requirement: The person must have a amazon account 
+Steps to be followed:
+1)Open the google
+2)Go to amazon's website
+3)Click on sign in
+4)Take the phone number
+5)Enter the phone number
+6)Click on continue
+7)Click on get an otp on your phone once
+8)Click on resend otp over and over again
+9)close the browser ''''
+
+
+
+
+
+
+
 #importing the required libraries
 from selenium import webdriver
 #step 1
