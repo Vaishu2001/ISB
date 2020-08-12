@@ -1,3 +1,18 @@
+''''-----Instagram profile Pic downloader-----
+Here we can download the profile pic of Instagram user's using python
+Steps to follow:
+1)Open the google
+2)Go to instagram 
+3)Take the user id of the profile as input
+4)Go to profile
+5)Download the profile picture ''''
+
+
+
+
+
+
+
 #importing the required libraries
 from selenium import webdriver
 #step 1
