@@ -1,3 +1,19 @@
+
+'''---Automatic Wifi connector bot------
+Here we will work with the networks which are being saved in our system
+Steps to follow:
+1)Check for the saved networks
+2)Check for the available networks
+3)Ask the user which saved network wants to login
+4)Disconnect the currrently connected network
+5)If the preferred network is not saved then end the program
+6)If preferred network is in saved then check whether they are available or not
+7)If it is avaiable,then connect.''''
+
+
+
+
+
 import os
 import sys
 
