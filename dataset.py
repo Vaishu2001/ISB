@@ -1,3 +1,18 @@
+''''----Covid 19-Dataset Creator-----
+Here we will create a dataset about covid-19 available in the web.
+Steps to follow;
+1)Open the google
+2)Go to the website
+3)Find where is the targeted data stored in the source code
+4)Gather the information available on the page
+5)store it in your device
+6)Close google''''
+
+
+
+
+
+
 #importing the libraries
 from selenium import webdriver
 import pandas as pd 
