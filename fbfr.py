@@ -1,11 +1,27 @@
+''''----Facebook Friend List Scrapper----
+Here, we have the code to scrap our facebook friend's list using python
+Steps to follow:
+1)Log into FB account
+2)Go to your profile
+3)Click on friends
+4)Make sure your page has all the friends list by scrolling
+5)Gather the data
+6)Clean the data
+7)Close the browser''''
+
+
+
+
+
+
 #step 1
 from selenium import webdriver
 import time
 from bs4 import BeautifulSoup
 browser=webdriver.Chrome("C:\\Users\\ASUS\\Desktop\\chromedriver.exe")
 browser.get("https://www.facebook.com")
-user_id="9188496929"
-password="facebookchakke"
+user_id="xyz@gmail.com"
+password="12345"
 '''
 print(user_id)
 print(password)'''
@@ -24,6 +40,8 @@ time.sleep(4)
 #step 3
 fr=browser.find_element_by_xpath('//ul[@class="_6_7 clearfix"]/li[3]/a')
 fr.click()
+#step 4
+
 # Scroll the page to fetch the friend list
 while True:
 	browser.execute_script('window.scrollTo(0,document.body.scrollHeight);')
