@@ -1,3 +1,16 @@
+''''-----Weather data from Accuweather-----
+In this miniproject, we are gathering the weather data from Accuweather website and create dataset using pandas library then we are converting it into csv file.
+Here we will do data visualization  in  google colabaratory to plot the graphs of data using matplotlib library and finally we will draw a line chart to understand and compare the data with different data or datasets.
+
+steps to follow:
+1)Form a dataset
+2)Visualize the data(File path:https://github.com/Vaishu2001/ISB/blob/master/Untitled0.ipynb )'''
+
+
+
+
+
+
 #import libraries
 from selenium import webdriver
 #opening google
