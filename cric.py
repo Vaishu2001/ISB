@@ -1,3 +1,13 @@
+'''''-------Team rankings,ratings, and points from ESPN cricinfo----
+Here we are scrapping the ICC cricket rankings data from espn cricinfo website and creating a dataset and storing it in csv file.Then opening the google colab and again we
+perform reverse process that is here we first read the csv file and then store and display the  dataframe.And then we use matplotlib and seaborn to draw a barplot and scatterplot.
+Steps to follow:
+1)Form a dataset
+2)visualise the data
+''''
+
+
+
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 #To get the page source of url
